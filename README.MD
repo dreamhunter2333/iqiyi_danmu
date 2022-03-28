@@ -11,6 +11,7 @@ F12 断点在 `getBarrageBrData`, `console` 执行 main.js 的代码，即可得
 ## 使用
 
 ```sh
+wget https://github.com/adobe-fonts/source-han-mono/releases/download/1.002/SourceHanMono.ttc
 python3 -m venv ./venv
 ./venv/bin/python3 isntall -r requirements.txt
 ./venv/bin/python3 main.py -i danmu/ -o 1.jpg
