@@ -1,0 +1,4 @@
+Brotli==1.0.9
+click==8.0.4
+protobuf==3.19.4
+wordcloud==1.8.1

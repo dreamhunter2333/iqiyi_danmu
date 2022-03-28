@@ -1,0 +1,5 @@
+danmu/
+out/
+venv/
+__pycache__/
+*.ttc

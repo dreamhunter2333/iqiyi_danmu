@@ -1,0 +1,14 @@
+syntax = "proto2";
+package danmu;
+
+message BulletInfo {
+    optional string content = 2; // becomes awesomeField
+}
+
+message Entry {
+    repeated BulletInfo bulletInfo = 2; // becomes awesomeField
+}
+
+message Danmu {
+    repeated Entry entry = 6; // becomes awesomeField
+}
